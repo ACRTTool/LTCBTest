@@ -83,7 +83,7 @@ $(document).on('keydown', function(event) {
 //USE KEYBOARD TO DRAG OBJECT 
 
             //init object globally, 
-            var objImage = null;
+            var objImage ;// = null;
             function init() {
                 objImage = document.getElementById("image1");
                 objImage.style.position = "relative";
